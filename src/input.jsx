@@ -1,10 +1,10 @@
-function Input({label, placeholdername, value, callback}){
+function Input({label, placeholdername="Enter details", value, callback}){
 return (
     <>
     <div style={{textAlign: "left"}}>
      <label className="inputLabels">{label}</label>
     <br />
-    <input placeholder={placeholdername} className="inputFields" value={value} onChange={callback} />
+    <input placeholder={placeholdername} className="inputFields" value={value} onChange={(e)=>callback(e)} />
     </div>
     </>
 )

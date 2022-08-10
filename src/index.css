@@ -16,11 +16,27 @@
 }
 
 .mainContainer {
+  width: 82vw;
+  height: 30em;
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
   background-color: rgb(255, 255, 255);
   /* margin: 20px; */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.edenLogo {
+  margin-top: -16px;
+}
+
+.subtitle {
+  color: #797979;
 }
 
 a {
@@ -59,10 +75,10 @@ button {
 button:hover {
   border-color: #646cff;
 }
-button:focus,
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 .inputFields {
   border: 1px solid #dbdbdb;
@@ -78,16 +94,30 @@ button:focus-visible {
   display: flex;
 }
 
+.stepperfill {
+  width: 30px;
+  height: 30px;
+  border: 50%;
+  background-color: #646cff;
+  color: white;
+}
+
+.stepper {
+  display: flex;
+  justify-content: center;
+}
+
 .plansOption {
   width: 150px;
   border-radius: 10px;
   border: 1px solid rgb(150, 110, 224);
 }
 
-/* .inputLabels {
-  display: flex;
-  align-items: flex-start;
-} */
+.inputLabels {
+  font-size: 14px;
+  color: #323232;
+  font-weight: 520;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
