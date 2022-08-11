@@ -64,10 +64,15 @@ function PageThree() {
       </div>
       <br />
       <div className="edenPlans">
-        <div className="plansOption"><h3>For myself</h3>
+        <div className="plansOption">
+          <div>logo</div>
+          <h5 className="headingOfThirdPage">For myself</h5>
         Write better. Think more clearly. Stay organized
         </div>
-        <div className="plansOption"><h3>With my team</h3>
+
+        <div className="plansOption">
+        <div>logo</div>
+          <h5 className="headingOfThirdPage">With my team</h5>
         Wikis, docs, tasks & projects, all in one place.</div>
       </div>
     </>
